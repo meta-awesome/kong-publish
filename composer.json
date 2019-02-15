@@ -1,0 +1,23 @@
+{
+    "name": "metawesome/kong-publish",
+    "description": "Componente para configuração de microservices no Kong Api",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adriano Zavareze Righi",
+            "email": "adriano.righi@meta.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/command"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Metawesome\\KongPublish\\": "src/"
+        }
+    }
+}
