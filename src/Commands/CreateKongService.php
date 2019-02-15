@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Metawesome\KongPublish\Commands;
 
 use Illuminate\Console\Command;
 use Metawesome\KongPublish\Services\CurlService;
@@ -136,7 +136,7 @@ class CreateKongService extends Command
         $request->to($this->getKongServiceRegisterApi())
              ->withData($this->serviceData)
              ->put();
-        
+
         return $request;
     }
 
@@ -163,7 +163,7 @@ class CreateKongService extends Command
         $request->to($this->getKongServiceRegisterApi())
              ->withJsonData($this->serviceData)
              ->put();
-        
+
         return $request;
     }
 

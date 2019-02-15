@@ -12,7 +12,7 @@ class KongPublishServiceProvider extends ServiceProvider
 
     /**
      * Bootstrap de application services
-     * 
+     *
      * @return void
      */
     public function boot()
@@ -24,7 +24,7 @@ class KongPublishServiceProvider extends ServiceProvider
 
     /**
      * Register the commands
-     * 
+     *
      * @return void
      */
     public function register()

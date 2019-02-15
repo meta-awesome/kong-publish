@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Metawesome\KongPublish\Commands;
 
 use Illuminate\Console\Command;
 
